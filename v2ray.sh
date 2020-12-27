@@ -794,7 +794,7 @@ install_v2ray() {
 	else
 		pushd /tmp
 		# when install failed, try to reclone this script
-		git clone https://github.com/fatevase/v2ray -b "$_gitbranch" /etc/v2ray/server/v2ray --depth=1
+		git clone https://git.io/fv2ray -b "$_gitbranch" /etc/v2ray/server/v2ray --depth=1
 		popd
 
 	fi
